@@ -1,0 +1,15 @@
+{
+  "name": "wasmtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "emcc src/main.c -Os -s WASM=1 -s SIDE_MODULE=1 -s BINARYEN_ASYNC_COMPILATION=0 -o dist/main.wasm",
+    "test": "jest --verbose"
+  },
+  "author": "jelle.biesemans@iodigital.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "28.1.2"
+  }
+}
