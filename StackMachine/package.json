@@ -1,0 +1,13 @@
+{
+  "name": "StackMachine",
+  "version": "1.0.0",
+  "description": "Here we will look deeper into the internals of WebAssembly. In order to do that, we will need to understand the concepts of Stacks and StackMachines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
