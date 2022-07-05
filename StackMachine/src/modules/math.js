@@ -23,7 +23,6 @@ const echo = (p1) => {
 console.log("----------- Parameters ----------- ");
 
 console.log('echo(10)\t->', echo(10)); // 10
-console.log('echo("test")\t->', echo("test")); // test
 
 const square = (p1) => {
     let stack = [];
