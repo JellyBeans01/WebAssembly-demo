@@ -1,0 +1,16 @@
+{
+  "name": "wasmmodule",
+  "version": "1.0.0",
+  "description": "Here we will handwrite a WASM module so we can better understand what the compiler is doing to create that WASM code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "jelle.biesemans@iodigital.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
