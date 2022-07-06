@@ -31,3 +31,19 @@ This will generate a bunch of files.
 - a folder with an index.ts and tsconfig.json file
 
 This index.ts file is the main entrypoint for your AS code.
+
+After you are done writing your code, you can run
+
+```shell
+npm run asbuild
+```
+
+This will make a debug and optimized release build
+
+Then you can run
+
+```shell
+npm run test
+```
+
+which will run the "test file"
