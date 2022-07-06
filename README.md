@@ -1,13 +1,5 @@
 # WebAssembly-demo
-A brief PoC about WebAssembly
-
-TODOs
-- [ ] Demo in React
-
-- [x] WAT to WASM
-- [x] C++ to WASM
-- [x] Tests WASM Module
-- [x] Use C++ module in JS
+Some small PoCs about WebAssembly
 
 Make sure the emcc binairy is built and loaded into your PATH vars by running
 
