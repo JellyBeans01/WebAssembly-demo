@@ -1,6 +1,6 @@
 # WASMTest
 
-Here we will generate a WASm file from C++ and then test that logic.
+Here we will generate a WASM file from C and then test that logic.
 
 To run tests, make sure you have the source file built
 

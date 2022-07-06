@@ -10,6 +10,6 @@ How do we create a table?
     - `(i32.const 0)` is the offset, an offset of 0 indicates that we will have an amount of elements equal to the size of the table specified, if we were to define 1 here, we needed to increase the size of our table with 1 as well
     - `$f1 $f2` are the function names
 
-Line 11 means: we create a function called "call_by_index" that accepts an i32 parameter and returns an i32 value
+`call_indirect` means that we are indirectly calling a function at the index on the last position in our stack
 
 Note that on line 10 in our WAT file, we made a named type so we can re-use it when we want to.
