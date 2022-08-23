@@ -14,10 +14,10 @@
   "author": "jelle.biesemans@iodigital.com",
   "license": "ISC",
   "dependencies": {
-    "@assemblyscript/loader": "^0.20.13"
+    "@assemblyscript/loader": "^0.21.1"
   },
   "devDependencies": {
-    "assemblyscript": "^0.20.13"
+    "assemblyscript": "^0.21.1"
   },
   "type": "module",
   "exports": {

@@ -64,13 +64,13 @@ Back in `WASMModule/src/modules`, run
 Linux/Mac
 
 ```shell
-../../../tools/wabt/bin/wat2wasm empty-module.wat -o dist/empty-module.wasm
+../../../tools/wabt/bin/wat2wasm empty-module.wat -o ../../dist/empty-module.wasm
 ```
 
 Windows
 
 ```shell
-..\..\..\tools\wabt\bin\wat2wasm empty-module.wat -o dist\empty-module.wasm
+..\..\..\tools\wabt\bin\wat2wasm empty-module.wat -o ..\..\dist\empty-module.wasm
 ```
 
 Now you should have your very first wasm module!
@@ -120,3 +120,5 @@ See server.js for documentaion
 ```shell
 node server.js
 ```
+
+Browse to `http://localhost:3000/test.html`

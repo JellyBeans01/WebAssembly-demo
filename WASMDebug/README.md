@@ -9,7 +9,7 @@ Let's use emcc again to compile it to an HTML template
 emcc -g main.c -o ../dist/main.html
 ```
 
-Note the `-g` flag, this let's the com,piler know to include debug information
+Note the `-g` flag, this let's the compiler know to include debug information
 
 Now, let's serve out HTML file using `serve`
 

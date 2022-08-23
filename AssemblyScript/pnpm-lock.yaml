@@ -1,31 +1,32 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@assemblyscript/loader': ^0.20.13
-  assemblyscript: ^0.20.13
+  '@assemblyscript/loader': ^0.21.1
+  assemblyscript: ^0.21.1
 
 dependencies:
-  '@assemblyscript/loader': 0.20.13
+  '@assemblyscript/loader': 0.21.1
 
 devDependencies:
-  assemblyscript: 0.20.13
+  assemblyscript: 0.21.1
 
 packages:
 
-  /@assemblyscript/loader/0.20.13:
-    resolution: {integrity: sha512-W8+yrxMIfoyfmLR/3wOOrDgc+sz5rheWgVS8XiyIMu8jzqTnwL9TIdhIoVsWb9PiPcfuW1VjkqSlh7s7epSytA==}
+  /@assemblyscript/loader/0.21.1:
+    resolution: {integrity: sha512-2RXPpTtdUFlCpgNjIJveZ0fXBOCVhPTq6AyqiJjgVo2E1Mly2MNSeXXrnfyP9BAez2AkGEVQEbn8vitHlUSlYg==}
     dev: false
 
-  /assemblyscript/0.20.13:
-    resolution: {integrity: sha512-F4ACXdBdXCBnPEzRCl/ovFFPGmKXQPvWW4cM6U21eRezaCoREqxA0hjSUOYTz7txY3MJclyBfjwMSEJ5e9HKsw==}
+  /assemblyscript/0.21.1:
+    resolution: {integrity: sha512-sBQMHVLRZ6M4qWWef+1ULXg8vYFwoPzNNAJlfCJSKzxJOoLf12Z42dFLPLQzIithuSLYgErUz+uoqaLM35Ne2g==}
+    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
     hasBin: true
     dependencies:
-      binaryen: 108.0.0-nightly.20220528
+      binaryen: 109.0.0-nightly.20220813
       long: 5.2.0
     dev: true
 
-  /binaryen/108.0.0-nightly.20220528:
-    resolution: {integrity: sha512-9biG357fx3NXmJNotIuY9agZBcCNHP7d1mgOGaTlPYVHZE7/61lt1IyHCXAL+W5jUOYgmFZ260PR4IbD19RKuA==}
+  /binaryen/109.0.0-nightly.20220813:
+    resolution: {integrity: sha512-u85Ti3LiGRrV0HqdNDRknalkx7QiCSL0jNsEsT522nnZacWxUaSJEILphxc2OnzmHVtdiWBE3c4lEzlU3ZEyDw==}
     hasBin: true
     dev: true
 
